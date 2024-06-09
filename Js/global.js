@@ -174,7 +174,7 @@ function menuMobile() {
         link.addEventListener('click', () => {
             header.classList.remove('show-nav');
         })
-    );    
+    );
 }
 menuMobile();
 
@@ -185,7 +185,7 @@ function tabsFilter() {
     const projets = document.querySelectorAll('.portfolio .card');
 
     const resetActiveLinks = () => {
-        tabs.forEach (elem => {
+        tabs.forEach(elem => {
             elem.classList.remove('active');
         });
     }
@@ -218,14 +218,14 @@ function tabsFilter() {
             elem.classList.add('active');
         })
     });
-    }
+}
 tabsFilter();
 
 function showProjectDetails() {
     const links = document.querySelectorAll('.card__link');
     const modals = document.querySelectorAll('.modal');
     const btns = document.querySelectorAll('.modal__close');
-    
+
     const hideModals = () => {
         modals.forEach(modal => {
             modal.classList.remove('show');
@@ -324,9 +324,10 @@ const scrollAddHeader = () => {
     let index = sections.index
 
     for (let i = 0; i < sections.length; i++) {
-    console.log(index[i])
+        console.log(index[i])
     }
 
 }
 //scrollAddHeader();
 
+const swup = new Swup()

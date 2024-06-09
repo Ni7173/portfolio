@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/global.css">
+    <script defer src="node_modules/swup/dist/Swup.module.js"></script>
     <script src="./js/global.js" defer></script>
 
     <script>
@@ -47,13 +48,13 @@ Contact
             </div>
             <nav class="navbar">
                 <ul class="menu list-unstyled">
-                    <li><a href="#hero">Accuei</a><span class="moving_txt">l</span></li>
-                    <li><a href="#About">A propo</a><span class="moving_txt">s</span></li>
-                    <li><a href="#Service">Service</a><span class="moving_txt">s</span></li>
-                    <li><a href="#Skills">Skill</a><span class="moving_txt">s</span></li>
-                    <li><a href="#Portfolio">Portfoli</a><span class="moving_txt">o</span></li>
-                    <li><a href="/blog">Blo</a><span class="moving_txt">g</span></li>
-                    <li><a href="#Contact">Contac</a><span class="moving_txt">t</span></li>
+                    <li><a href="#hero">Accuei<span class="moving_txt">l</span></a></li>
+                    <li><a href="#About">A propo<span class="moving_txt">s</span></a></li>
+                    <li><a href="#Service">Service<span class="moving_txt">s</span></a></li>
+                    <li><a href="#Skills">Skill<span class="moving_txt">s</span></a></li>
+                    <li><a href="#Portfolio">Portfoli<span class="moving_txt">o</span></a></li>
+                    <li><a href="/blog/index.html">Blo<span class="moving_txt">g</span></a></li>
+                    <li><a href="#Contact">Contac<span class="moving_txt">t</span></a></li>
                 </ul>
             </nav>
             <div class="right">
@@ -93,688 +94,724 @@ Contact
         </div>
     </header>
 
-    <section id="hero" class="hero">
-        <div class="container">
-            <div class="grid d-flex">
-                <div class="hero__item left">
-                    <span class="pre-title">Développer Web En Herbe</span>
-                    <h1 class="title">
-                        <bold>En développement des skills...</bold>
-                    </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eligendi saepe sit dolores adipisci
-                        qui totam reiciendis repudiandae, dignissimos voluptates, itaque, quas dolore. Neque, odio
-                        numquam. Sint omnis quam nostrum!</p>
-                </div>
-                <div class="hero__item right">
-                    <div class="hero__avatar">
-                        <img src="./img/avatar.png" alt="avatarNino" width="400px" height="400px" loading="lazy">
+    <main id="swup" class="transition-fade">
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="grid d-flex">
+                    <div class="hero__item left">
+                        <span class="pre-title">Développer Web En Herbe</span>
+                        <h1 class="title">
+                            <bold>En développement des skills...</bold>
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eligendi saepe sit dolores
+                            adipisci
+                            qui totam reiciendis repudiandae, dignissimos voluptates, itaque, quas dolore. Neque, odio
+                            numquam. Sint omnis quam nostrum!</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="About" class="About">
-        <div class="container">
-            <div class="grid">
-                <div class="grid__item">
-                    <img width="470px" height="470px" src="./img/avatar.png" alt="nino - freelance future"
-                        loading="lazy">
-                </div>
-                <div class="grid__item right">
-                    <h2 class="section-title">A propos</h2>
-                    <h3>
-                        Qui Suis-Je?
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Référencement
-                            SEO</strong>Exercitationem perferendis possimus, nostrum voluptate, labore eligendi mollitia
-                        assumenda et magnam illum autem non cupiditate voluptatem tenetur a libero ipsam facere
-                        repudiandae?
-                    </p>
-                    <ul>
-                        <li>Liste</li>
-                        <li>Liste</li>
-                        <li>Liste</li>
-                        <li>Liste</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="Service" class="service">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Mes services</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio sit,
-                    dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
-            </div>
-            <div class="grid">
-                <div class="grid__item">
-                    <div class="service__item">
-                        <div class="service__icon">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>DEVELOPPEMENT DE SITES</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                    <div class="service__item">
-                        <div class="service__icon">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>AMELIORATION CONVERSION</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                    <div class="service__item">
-                        <div class="service__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M162.4 6c-1.5-3.6-5-6-8.9-6h-19c-3.9 0-7.5 2.4-8.9 6L104.9 57.7c-3.2 8-14.6 8-17.8 0L66.4 6c-1.5-3.6-5-6-8.9-6H48C21.5 0 0 21.5 0 48V224v22.4V256H9.6 374.4 384v-9.6V224 48c0-26.5-21.5-48-48-48H230.5c-3.9 0-7.5 2.4-8.9 6L200.9 57.7c-3.2 8-14.6 8-17.8 0L162.4 6zM0 288v32c0 35.3 28.7 64 64 64h64v64c0 35.3 28.7 64 64 64s64-28.7 64-64V384h64c35.3 0 64-28.7 64-64V288H0zM192 432a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>MODIFICATIONS SPECIFIQUES</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                    <div class="service__item">
-                        <div class="service__icon">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M388.3 104.1a4.7 4.7 0 0 0 -4.4-4c-2 0-37.2-.8-37.2-.8s-21.6-20.8-29.6-28.8V503.2L442.8 472S388.7 106.5 388.3 104.1zM288.7 70.5a116.7 116.7 0 0 0 -7.2-17.6C271 32.9 255.4 22 237 22a15 15 0 0 0 -4 .4c-.4-.8-1.2-1.2-1.6-2C223.4 11.6 213 7.6 200.6 8c-24 .8-48 18-67.3 48.8-13.6 21.6-24 48.8-26.8 70.1-27.6 8.4-46.8 14.4-47.2 14.8-14 4.4-14.4 4.8-16 18-1.2 10-38 291.8-38 291.8L307.9 504V65.7a41.7 41.7 0 0 0 -4.4 .4S297.9 67.7 288.7 70.5zM233.4 87.7c-16 4.8-33.6 10.4-50.8 15.6 4.8-18.8 14.4-37.6 25.6-50 4.4-4.4 10.4-9.6 17.2-12.8C232.2 54.9 233.8 74.5 233.4 87.7zM200.6 24.4A27.5 27.5 0 0 1 215 28c-6.4 3.2-12.8 8.4-18.8 14.4-15.2 16.4-26.8 42-31.6 66.5-14.4 4.4-28.8 8.8-42 12.8C131.3 83.3 163.8 25.2 200.6 24.4zM154.2 244.6c1.6 25.6 69.3 31.2 73.3 91.7 2.8 47.6-25.2 80.1-65.7 82.5-48.8 3.2-75.7-25.6-75.7-25.6l10.4-44s26.8 20.4 48.4 18.8c14-.8 19.2-12.4 18.8-20.4-2-33.6-57.2-31.6-60.8-86.9-3.2-46.4 27.2-93.3 94.5-97.7 26-1.6 39.2 4.8 39.2 4.8L221.4 225.4s-17.2-8-37.6-6.4C154.2 221 153.8 239.8 154.2 244.6zM249.4 82.9c0-12-1.6-29.2-7.2-43.6 18.4 3.6 27.2 24 31.2 36.4Q262.6 78.7 249.4 82.9z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>CREATION SITES SHOPIFY</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="service__item">
-                        <div class="service__icon">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>AUGMENTATION SPEED</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                    <div class="service__item">
-                        <div class="service__icon">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M448 80c8.8 0 16 7.2 16 16V415.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3L202 340.7l-30.5-42.7C167 291.7 159.8 288 152 288s-15 3.7-19.5 10.1l-80 112L48 416.3l0-.3V96c0-8.8 7.2-16 16-16H448zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>TRAITEMENT IMAGE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                    <div class="service__item">
-                        <div class="service__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path opacity="1" fill="#1E3050"
-                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>DU PORTFOLIO AU WEBSITE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
-                        </div>
-                    </div>
-                    <div class="service__item">
-                        <div class="service__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                <path
-                                    d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm40 304V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.9s-34.8 4.2-43.9-10.9L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152z" />
-                            </svg>
-                        </div>
-                        <div class="service_content">
-                            <h3>ADAPTE A VOUS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo tenetur
-                                officiis pariatur?</p>
+                    <div class="hero__item right">
+                        <div class="hero__avatar">
+                            <img src="./img/avatar.png" alt="avatarNino" width="400px" height="400px" loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="Skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Mes compétences</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio sit,
-                    dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
-            </div>
-            <div class="grid">
-                <div class="grid__item">
-                    <h3>Domaines de compétences</h3>
-                    <ul class="list-unstyled">
-                        <li>
-                            <h4>Compétence 1</h4>
-                            <p>Description</p>
-                        </li>
-                        <li>
-                            <h4>Compétence 2</h4>
-                            <p>Description</p>
-                        </li>
-                        <li>
-                            <h4>Compétence 3</h4>
-                            <p>Description</p>
-                        </li>
-                        <li>
-                            <h4>Compétence 4</h4>
-                            <p>Description</p>
-                        <li>
-                            <h4>Compétence 5</h4>
-                            <p>Description</p>
-                        </li>
-                        <li>
-                            <h4>Compétence 6</h4>
-                            <p>Description</p>
-                        </li>
-                        <li>
-                            <h4>Compétence 7</h4>
-                            <p>Description</p>
-                        </li>
-                        <li>
-                            <h4>Compétence 8</h4>
-                            <p>Description</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__item">
-                    <h3>Compétences en développement</h3>
-                    <div class="progressbar">
-                        <div class="bar" data-width="95">HTML</div>
-                        <div class="bar" data-width="100">CSS</div>
-                        <div class="bar" data-width="80">JS</div>
-                        <div class="bar" data-width="30">PHP</div>
-                        <div class="bar" data-width="55">NODE</div>
-                        <div class="bar" data-width="75">REACT</div>
-                    </div>
-                    <h3 class="second">Compétences en conception graphique</h3>
-                    <div class="progressbar">
-                        <div class="bar" data-width="85">PS</div>
-                        <div class="bar" data-width="75">ILLUSTRATOR</div>
-                        <div class="bar" data-width="45">FIGMA</div>
-                        <div class="bar" data-width="75">AFTER EFFECT</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="Portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio sit,
-                    dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
+        <section id="About" class="About">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__item">
+                        <img width="470px" height="470px" src="./img/avatar.png" alt="nino - freelance future"
+                            loading="lazy">
+                    </div>
+                    <div class="grid__item right">
+                        <h2 class="section-title">A propos</h2>
+                        <h3>
+                            Qui Suis-Je?
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Référencement
+                                SEO</strong>Exercitationem perferendis possimus, nostrum voluptate, labore eligendi
+                            mollitia
+                            assumenda et magnam illum autem non cupiditate voluptatem tenetur a libero ipsam facere
+                            repudiandae?
+                        </p>
+                        <ul>
+                            <li>Liste</li>
+                            <li>Liste</li>
+                            <li>Liste</li>
+                            <li>Liste</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul id="gp" class="grid portfolio-filter list-unstyled">
-                <li class="grid__item">
-                    <a href="#" class="active" data-filter="all">Tous les projets</a>
-                </li>
-                <li class="grid__item">
-                    <a href="#" data-filter="dev">Dév Web</a>
-                </li>
-                <li class="grid__item">
-                    <a href="#" data-filter="app">Applications</a>
-                </li>
-                <li class="grid__item">
-                    <a href="#" data-filter="shopi">Shopify</a>
-                </li>
-            </ul>
-            <div class="grid">
-                <div class="grid__item">
-                    <div class="card" data-category="dev">
-                        <img loading="lazy" width="365px" height="243" src="https://picsum.photos/600/400?random=1"
-                            alt="projet 1" class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Titre projet</h3>
-                            <p class="category">
-                                Developpement web
-                            </p>
+        </section>
+
+        <section id="Service" class="service">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mes services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio
+                        sit,
+                        dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
+                </div>
+                <div class="grid">
+                    <div class="grid__item">
+                        <div class="service__item">
+                            <div class="service__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>DEVELOPPEMENT DE SITES</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
                         </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-1">+</a>
+                        <div class="service__item">
+                            <div class="service__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>AMELIORATION CONVERSION</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <div class="service__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M162.4 6c-1.5-3.6-5-6-8.9-6h-19c-3.9 0-7.5 2.4-8.9 6L104.9 57.7c-3.2 8-14.6 8-17.8 0L66.4 6c-1.5-3.6-5-6-8.9-6H48C21.5 0 0 21.5 0 48V224v22.4V256H9.6 374.4 384v-9.6V224 48c0-26.5-21.5-48-48-48H230.5c-3.9 0-7.5 2.4-8.9 6L200.9 57.7c-3.2 8-14.6 8-17.8 0L162.4 6zM0 288v32c0 35.3 28.7 64 64 64h64v64c0 35.3 28.7 64 64 64s64-28.7 64-64V384h64c35.3 0 64-28.7 64-64V288H0zM192 432a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>MODIFICATIONS SPECIFIQUES</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <div class="service__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M388.3 104.1a4.7 4.7 0 0 0 -4.4-4c-2 0-37.2-.8-37.2-.8s-21.6-20.8-29.6-28.8V503.2L442.8 472S388.7 106.5 388.3 104.1zM288.7 70.5a116.7 116.7 0 0 0 -7.2-17.6C271 32.9 255.4 22 237 22a15 15 0 0 0 -4 .4c-.4-.8-1.2-1.2-1.6-2C223.4 11.6 213 7.6 200.6 8c-24 .8-48 18-67.3 48.8-13.6 21.6-24 48.8-26.8 70.1-27.6 8.4-46.8 14.4-47.2 14.8-14 4.4-14.4 4.8-16 18-1.2 10-38 291.8-38 291.8L307.9 504V65.7a41.7 41.7 0 0 0 -4.4 .4S297.9 67.7 288.7 70.5zM233.4 87.7c-16 4.8-33.6 10.4-50.8 15.6 4.8-18.8 14.4-37.6 25.6-50 4.4-4.4 10.4-9.6 17.2-12.8C232.2 54.9 233.8 74.5 233.4 87.7zM200.6 24.4A27.5 27.5 0 0 1 215 28c-6.4 3.2-12.8 8.4-18.8 14.4-15.2 16.4-26.8 42-31.6 66.5-14.4 4.4-28.8 8.8-42 12.8C131.3 83.3 163.8 25.2 200.6 24.4zM154.2 244.6c1.6 25.6 69.3 31.2 73.3 91.7 2.8 47.6-25.2 80.1-65.7 82.5-48.8 3.2-75.7-25.6-75.7-25.6l10.4-44s26.8 20.4 48.4 18.8c14-.8 19.2-12.4 18.8-20.4-2-33.6-57.2-31.6-60.8-86.9-3.2-46.4 27.2-93.3 94.5-97.7 26-1.6 39.2 4.8 39.2 4.8L221.4 225.4s-17.2-8-37.6-6.4C154.2 221 153.8 239.8 154.2 244.6zM249.4 82.9c0-12-1.6-29.2-7.2-43.6 18.4 3.6 27.2 24 31.2 36.4Q262.6 78.7 249.4 82.9z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>CREATION SITES SHOPIFY</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="modal" id="modal-1">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
-                                            loading="lazy" alt="image projet" class="card__image">
+                    <div class="grid__item">
+                        <div class="service__item">
+                            <div class="service__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>AUGMENTATION SPEED</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <div class="service__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M448 80c8.8 0 16 7.2 16 16V415.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3L202 340.7l-30.5-42.7C167 291.7 159.8 288 152 288s-15 3.7-19.5 10.1l-80 112L48 416.3l0-.3V96c0-8.8 7.2-16 16-16H448zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>TRAITEMENT IMAGE</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <div class="service__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path opacity="1" fill="#1E3050"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>DU PORTFOLIO AU WEBSITE</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <div class="service__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path
+                                        d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm40 304V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.9s-34.8 4.2-43.9-10.9L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152z" />
+                                </svg>
+                            </div>
+                            <div class="service_content">
+                                <h3>ADAPTE A VOUS</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing laborum rem, dolor velit illo
+                                    tenetur
+                                    officiis pariatur?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mes compétences</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio
+                        sit,
+                        dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
+                </div>
+                <div class="grid">
+                    <div class="grid__item">
+                        <h3>Domaines de compétences</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h4>Compétence 1</h4>
+                                <p>Description</p>
+                            </li>
+                            <li>
+                                <h4>Compétence 2</h4>
+                                <p>Description</p>
+                            </li>
+                            <li>
+                                <h4>Compétence 3</h4>
+                                <p>Description</p>
+                            </li>
+                            <li>
+                                <h4>Compétence 4</h4>
+                                <p>Description</p>
+                            <li>
+                                <h4>Compétence 5</h4>
+                                <p>Description</p>
+                            </li>
+                            <li>
+                                <h4>Compétence 6</h4>
+                                <p>Description</p>
+                            </li>
+                            <li>
+                                <h4>Compétence 7</h4>
+                                <p>Description</p>
+                            </li>
+                            <li>
+                                <h4>Compétence 8</h4>
+                                <p>Description</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__item">
+                        <h3>Compétences en développement</h3>
+                        <div class="progressbar">
+                            <div class="bar" data-width="95">HTML</div>
+                            <div class="bar" data-width="100">CSS</div>
+                            <div class="bar" data-width="80">JS</div>
+                            <div class="bar" data-width="30">PHP</div>
+                            <div class="bar" data-width="55">NODE</div>
+                            <div class="bar" data-width="75">REACT</div>
+                        </div>
+                        <h3 class="second">Compétences en conception graphique</h3>
+                        <div class="progressbar">
+                            <div class="bar" data-width="85">PS</div>
+                            <div class="bar" data-width="75">ILLUSTRATOR</div>
+                            <div class="bar" data-width="45">FIGMA</div>
+                            <div class="bar" data-width="75">AFTER EFFECT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Portfolio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio
+                        sit,
+                        dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
+                </div>
+                <ul id="gp" class="grid portfolio-filter list-unstyled">
+                    <li class="grid__item">
+                        <a href="#" class="active" data-filter="all">Tous les projets</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="dev">Dév Web</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="app">Applications</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="shopi">Shopify</a>
+                    </li>
+                </ul>
+                <div class="grid">
+                    <div class="grid__item">
+                        <div class="card" data-category="dev">
+                            <img loading="lazy" width="365px" height="243" src="https://picsum.photos/600/400?random=1"
+                                alt="projet 1" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Titre projet</h3>
+                                <p class="category">
+                                    Developpement web
+                                </p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-1">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-1">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                        </div>
+                                        <div class="grid__item .lower">
+                                            <h4 class="modal__title h2">TITRE MODAL 1</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                                                </svg>
+                                                <i>Année 2022</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="currentColor"
+                                                        d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                                                </svg>
+                                                Developpement Web
+                                            </p>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi
+                                                quo
+                                                necessitatibus delectus tenetur reprehenderit modi dicta tempora.
+                                                Excepturi
+                                                rem ullam earum non. Id quaerat magnam quisquam possimus illum
+                                                dignissimos.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>Js</li>
+                                                <li>React</li>
+                                                <li>Node</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="grid__item .lower">
-                                        <h4 class="modal__title h2">TITRE MODAL 1</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <path fill="currentColor"
-                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                                            </svg>
-                                            <i>Année 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                                <path fill="currentColor"
-                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                                            </svg>
-                                            Developpement Web
-                                        </p>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi quo
-                                            necessitatibus delectus tenetur reprehenderit modi dicta tempora. Excepturi
-                                            rem ullam earum non. Id quaerat magnam quisquam possimus illum dignissimos.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML, CSS</li>
-                                            <li>Js</li>
-                                            <li>React</li>
-                                            <li>Node</li>
-                                            <li>Express.js</li>
-                                            <li>MongoDB</li>
-                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="app">
+                            <img width="365px" height="243" src="https://picsum.photos/600/400?random=2" loading="lazy"
+                                alt="projet 1" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Titre projet</h3>
+                                <p class="category">
+                                    Applications
+                                </p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-2">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-2">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                        </div>
+                                        <div class="grid__item .lower">
+                                            <h4 class="modal__title h2">TITRE MODAL 2</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                                                </svg>
+                                                <i>Année 2021</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="currentColor"
+                                                        d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                                                </svg>
+                                                Applications
+                                            </p>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi
+                                                quo
+                                                necessitatibus delectus tenetur reprehenderit modi dicta tempora.
+                                                Excepturi
+                                                rem ullam earum non. Id quaerat magnam quisquam possimus illum
+                                                dignissimos.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>Js</li>
+                                                <li>React</li>
+                                                <li>Node</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="shopi">
+                            <img width="365px" height="243" src="https://picsum.photos/600/400?random=3" loading="lazy"
+                                alt="projet 1" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Titre projet</h3>
+                                <p class="category">
+                                    Shopify
+                                </p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-3">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-3">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                        </div>
+                                        <div class="grid__item .lower">
+                                            <h4 class="modal__title h2">TITRE MODAL 3</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                                                </svg>
+                                                <i>Année 2023</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="currentColor"
+                                                        d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                                                </svg>
+                                                Shopify
+                                            </p>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi
+                                                quo
+                                                necessitatibus delectus tenetur reprehenderit modi dicta tempora.
+                                                Excepturi
+                                                rem ullam earum non. Id quaerat magnam quisquam possimus illum
+                                                dignissimos.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>Js</li>
+                                                <li>React</li>
+                                                <li>Node</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="dev">
+                            <img width="365px" height="243" src="https://picsum.photos/600/400?random=4" loading="lazy"
+                                alt="projet 1" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Titre projet</h3>
+                                <p class="category">
+                                    Developpement web
+                                </p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-4">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-4">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                        </div>
+                                        <div class="grid__item .lower">
+                                            <h4 class="modal__title h2">TITRE MODAL 4</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                                                </svg>
+                                                <i>Année 2020</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="currentColor"
+                                                        d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                                                </svg>
+                                                Developpement Web
+                                            </p>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi
+                                                quo
+                                                necessitatibus delectus tenetur reprehenderit modi dicta tempora.
+                                                Excepturi
+                                                rem ullam earum non. Id quaerat magnam quisquam possimus illum
+                                                dignissimos.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>Js</li>
+                                                <li>React</li>
+                                                <li>Node</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="app">
+                            <img width="365px" height="243" src="https://picsum.photos/600/400?random=5" loading="lazy"
+                                alt="projet 1" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Titre projet</h3>
+                                <p class="category">
+                                    Applications
+                                </p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-5">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-5">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                        </div>
+                                        <div class="grid__item .lower">
+                                            <h4 class="modal__title h2">TITRE MODAL 5</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                                                </svg>
+                                                <i>Année 2022</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="currentColor"
+                                                        d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                                                </svg>
+                                                Applications
+                                            </p>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi
+                                                quo
+                                                necessitatibus delectus tenetur reprehenderit modi dicta tempora.
+                                                Excepturi
+                                                rem ullam earum non. Id quaerat magnam quisquam possimus illum
+                                                dignissimos.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>Js</li>
+                                                <li>React</li>
+                                                <li>Node</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="shopi">
+                            <img width="365px" height="243" src="https://picsum.photos/600/400?random=6" loading="lazy"
+                                alt="projet 1" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Titre projet</h3>
+                                <p class="category">
+                                    Shopify
+                                </p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-6">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-6">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                            <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
+                                                loading="lazy" alt="image projet" class="card__image">
+                                        </div>
+                                        <div class="grid__item .lower">
+                                            <h4 class="modal__title h2">TITRE MODAL 6</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
+                                                </svg>
+                                                <i>Année 2022</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                    viewBox="0 0 448 512">
+                                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="currentColor"
+                                                        d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                                                </svg>
+                                                Shopify
+                                            </p>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi
+                                                quo
+                                                necessitatibus delectus tenetur reprehenderit modi dicta tempora.
+                                                Excepturi
+                                                rem ullam earum non. Id quaerat magnam quisquam possimus illum
+                                                dignissimos.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML, CSS</li>
+                                                <li>Js</li>
+                                                <li>React</li>
+                                                <li>Node</li>
+                                                <li>Express.js</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="grid__item">
-                    <div class="card" data-category="app">
-                        <img width="365px" height="243" src="https://picsum.photos/600/400?random=2" loading="lazy"
-                            alt="projet 1" class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Titre projet</h3>
-                            <p class="category">
-                                Applications
-                            </p>
-                        </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-2">+</a>
-                        </div>
-                    </div>
-                    <div class="modal" id="modal-2">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                    </div>
-                                    <div class="grid__item .lower">
-                                        <h4 class="modal__title h2">TITRE MODAL 2</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <path fill="currentColor"
-                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                                            </svg>
-                                            <i>Année 2021</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                                <path fill="currentColor"
-                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                                            </svg>
-                                            Applications
-                                        </p>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi quo
-                                            necessitatibus delectus tenetur reprehenderit modi dicta tempora. Excepturi
-                                            rem ullam earum non. Id quaerat magnam quisquam possimus illum dignissimos.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML, CSS</li>
-                                            <li>Js</li>
-                                            <li>React</li>
-                                            <li>Node</li>
-                                            <li>Express.js</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="card" data-category="shopi">
-                        <img width="365px" height="243" src="https://picsum.photos/600/400?random=3" loading="lazy"
-                            alt="projet 1" class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Titre projet</h3>
-                            <p class="category">
-                                Shopify
-                            </p>
-                        </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-3">+</a>
-                        </div>
-                    </div>
-                    <div class="modal" id="modal-3">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                    </div>
-                                    <div class="grid__item .lower">
-                                        <h4 class="modal__title h2">TITRE MODAL 3</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <path fill="currentColor"
-                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                                            </svg>
-                                            <i>Année 2023</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                                <path fill="currentColor"
-                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                                            </svg>
-                                            Shopify
-                                        </p>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi quo
-                                            necessitatibus delectus tenetur reprehenderit modi dicta tempora. Excepturi
-                                            rem ullam earum non. Id quaerat magnam quisquam possimus illum dignissimos.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML, CSS</li>
-                                            <li>Js</li>
-                                            <li>React</li>
-                                            <li>Node</li>
-                                            <li>Express.js</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="card" data-category="dev">
-                        <img width="365px" height="243" src="https://picsum.photos/600/400?random=4" loading="lazy"
-                            alt="projet 1" class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Titre projet</h3>
-                            <p class="category">
-                                Developpement web
-                            </p>
-                        </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-4">+</a>
-                        </div>
-                    </div>
-                    <div class="modal" id="modal-4">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                    </div>
-                                    <div class="grid__item .lower">
-                                        <h4 class="modal__title h2">TITRE MODAL 4</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <path fill="currentColor"
-                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                                            </svg>
-                                            <i>Année 2020</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                                <path fill="currentColor"
-                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                                            </svg>
-                                            Developpement Web
-                                        </p>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi quo
-                                            necessitatibus delectus tenetur reprehenderit modi dicta tempora. Excepturi
-                                            rem ullam earum non. Id quaerat magnam quisquam possimus illum dignissimos.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML, CSS</li>
-                                            <li>Js</li>
-                                            <li>React</li>
-                                            <li>Node</li>
-                                            <li>Express.js</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="card" data-category="app">
-                        <img width="365px" height="243" src="https://picsum.photos/600/400?random=5" loading="lazy"
-                            alt="projet 1" class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Titre projet</h3>
-                            <p class="category">
-                                Applications
-                            </p>
-                        </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-5">+</a>
-                        </div>
-                    </div>
-                    <div class="modal" id="modal-5">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                    </div>
-                                    <div class="grid__item .lower">
-                                        <h4 class="modal__title h2">TITRE MODAL 5</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <path fill="currentColor"
-                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                                            </svg>
-                                            <i>Année 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                                <path fill="currentColor"
-                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                                            </svg>
-                                            Applications
-                                        </p>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi quo
-                                            necessitatibus delectus tenetur reprehenderit modi dicta tempora. Excepturi
-                                            rem ullam earum non. Id quaerat magnam quisquam possimus illum dignissimos.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML, CSS</li>
-                                            <li>Js</li>
-                                            <li>React</li>
-                                            <li>Node</li>
-                                            <li>Express.js</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="card" data-category="shopi">
-                        <img width="365px" height="243" src="https://picsum.photos/600/400?random=6" loading="lazy"
-                            alt="projet 1" class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Titre projet</h3>
-                            <p class="category">
-                                Shopify
-                            </p>
-                        </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-6">+</a>
-                        </div>
-                    </div>
-                    <div class="modal" id="modal-6">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=12"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                        <img width="560" height="373" src="https://picsum.photos/600/400?random=15"
-                                            loading="lazy" alt="image projet" class="card__image">
-                                    </div>
-                                    <div class="grid__item .lower">
-                                        <h4 class="modal__title h2">TITRE MODAL 6</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <path fill="currentColor"
-                                                    d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                                            </svg>
-                                            <i>Année 2022</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                                viewBox="0 0 448 512">
-                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                                <path fill="currentColor"
-                                                    d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                                            </svg>
-                                            Shopify
-                                        </p>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sequi quo
-                                            necessitatibus delectus tenetur reprehenderit modi dicta tempora. Excepturi
-                                            rem ullam earum non. Id quaerat magnam quisquam possimus illum dignissimos.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML, CSS</li>
-                                            <li>Js</li>
-                                            <li>React</li>
-                                            <li>Node</li>
-                                            <li>Express.js</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </section>
+        <section id="Contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio
+                        sit,
+                        dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="Contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Contact</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam libero ad sit amet. Odio sit,
-                    dolorum est ad dolore quos voluptate iste, voluptas illo nam, omnis optio tempora adipisci!</p>
-            </div>
-        </div>
-        <form action="https://formsubmit.co/nino.bravais20@gmail.com" method="POST" class="form">
-            <input type="text" name="_honey" style="display: none;">
-            <input type="hidden" name="_captcha" value="false">
+            <form action="https://formsubmit.co/nino.bravais20@gmail.com" method="POST" class="form">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
 
-            <label for="firstname">
-                <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
-            </label>
-            <label for="lastname">
-                <input type="text" name="lastname" id="lastname" placeholder="Prénom">
-            </label>
-            <label for="email">
-                <input type="email" name="email" id="email" placeholder="Votre e-mail" required>
-            </label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-            <input class="btn" type="submit" value="Envoyer">
-        </form>
-    </section>
+                <label for="firstname">
+                    <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+                </label>
+                <label for="lastname">
+                    <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Votre e-mail" required>
+                </label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <input class="btn" type="submit" value="Envoyer">
+            </form>
+        </section>
+
+    </main>
+
 
 
     <footer>
